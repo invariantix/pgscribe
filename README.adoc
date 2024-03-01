@@ -1,0 +1,17 @@
+= PgScribe
+
+PgScribe is a simple ETL PostgreSQL database utility designed to reproduce subsets of data.
+Just like a medieval scribe, it may copy only parts of a source or modify it in the process of copying.
+
+This allows database administrators to mirror redacted data sets from Customer Data Environments (CDE) into less sensitive data environments, e.g. for analysis, with Personally Indentifiable Information (PII) staying protected.
+
+== Features
+
+- Selective data copying: Choose specific data to transfer between databases.
+- Schema updates: Automatically update the target database's schema when needed.
+- Data modification: Modify data during the copying process.
+
+== License
+
+PgScribe is licensed under the GPL 3.0 or later License.
+

@@ -1,0 +1,13 @@
+[package]
+name = "pgscribe"
+version = "0.0.0"
+authors = ["Marcel Meyer <invariantix@protonmail.com>"]
+edition = "2021"
+description = "PgScribe is a simple ETL PostgreSQL database utility designed to reproduce subsets of data."
+homepage = "https://github.com/invariantix/pgscribe"
+repository = "https://github.com/invariantix/pgscribe"
+license = "GPL-3.0-or-later"
+keywords = ["postgres", "postgresql", "etl", "pii"]
+categories = ["command-line-utilities", "database"]
+
+[dependencies]
